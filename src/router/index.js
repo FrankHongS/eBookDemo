@@ -8,11 +8,11 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect:'/ebook'
+      redirect: '/ebook'
     },
     {
       path: '/ebook',
-      component:EBook
+      component: EBook
     }
   ]
 })

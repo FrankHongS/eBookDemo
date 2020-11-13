@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -9,13 +9,13 @@ export default {
   name: 'App'
 }
 
-//动态设置字体大小
-document.addEventListener('DOMContentLoaded',()=>{
-  const html=document.querySelector('html');
+// 动态设置字体大小
+document.addEventListener('DOMContentLoaded', () => {
+  const html = document.querySelector('html')
 
-  let fontSize=window.innerWidth/10>40?40:window.innerWidth/10;
-  html.style.fontSize=fontSize+'px';
-});
+  let fontSize = window.innerWidth / 10 > 40 ? 40 : window.innerWidth / 10
+  html.style.fontSize = fontSize + 'px'
+})
 </script>
 
 <style>
